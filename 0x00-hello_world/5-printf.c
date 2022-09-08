@@ -5,10 +5,10 @@
  *
  * Return: Always 0 (Success)
  */
-int main()
+int main(void)
 {
-	char str1[] = "With proper grammar, but the outcome is a piece of art,\n";
+	char str1[] = "with proper grammar, but the outcome is a piece of art,\n";
 
-	printf("%s",str1);
-	return 0;
+	print("%s", str1);
+	return (0);
 }
