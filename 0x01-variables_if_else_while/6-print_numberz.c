@@ -8,13 +8,12 @@
  */
 int main(void)
 {
-	char ch = '0';
 	int cnt;
 	int base = 10;
 
 	for (cnt = 0; cnt < base; cnt++)
 	{
-		putchar (cnt + ch);
+		putchar (cnt + '0');
 
 	}
 	putchar ('\n');
