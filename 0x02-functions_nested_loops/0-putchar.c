@@ -6,7 +6,7 @@
  */
 int printChar(void)
 {
-	char a[] = "_putchar\n";
+	char a[] = "_putchar";
 	int i;
 
 
@@ -14,6 +14,7 @@ int printChar(void)
 	{
 		_putchar(a[i]);
 	}
+	_putchar('\n');
 	return (0);
 }
 
