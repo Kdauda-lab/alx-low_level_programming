@@ -12,11 +12,11 @@ int _islower(int c)
 
 	if (islower(c))
 	{
-		return (_putchar('1'));
+		return (_putchar(c));
 	}
 	else
 	{
-		return (_putchar('0'));
+		return (_putchar(c));
 	}
 
 }
