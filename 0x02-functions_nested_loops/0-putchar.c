@@ -1,10 +1,8 @@
-#include"main.h"
+#include "main.h"
 /**
- * printChar - prints _putchar to std
- * @void: does not take any arguements
- *
- * Return:  on success 0
- * On error, -1 is returned, and errno is set appropriately
+ * PrintChar - print a string to std
+ * 
+ * Return - on success 0
  */
 int printChar(void)
 {
@@ -19,3 +17,8 @@ int printChar(void)
 	return (0);
 }
 
+int main(void)
+{
+	printChar();
+	return (0);
+}
