@@ -15,5 +15,9 @@
 7-print_last_digit - A function that prints the last digit of a number
 
 8-8-24_hours - a function that prints every minute of the day of Jack Bauer, starting from 00:00 to 23:59.
+
 9-time_table - a function that prints the 9 times table, starting with 0.
+
 10-add - a function that adds two integers and returns the result.
+
+11-print_to_98 - a function that prints all natural numbers from n to 98, followed by a new line.
