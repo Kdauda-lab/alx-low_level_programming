@@ -1,19 +1,14 @@
 #include "main.h"
 /**
  * _abs - return the absolute value of an integer
- * @n: take an integer arguement
+ * @n: take an integer arguements
  * Return: an integer
  */
 int _abs(int n)
 {
-	if (n < 0)
+	if (n >= 0)
 	{
-		int r = n * -1;
-		_putchar(r + '0');
+		return (n);
 	}
-	else
-	{
-		_putchar(n + '0');
-	}		
-return (0);
+	return (-n);
 }
