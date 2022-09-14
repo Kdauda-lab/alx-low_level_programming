@@ -9,5 +9,9 @@
 4- isalpha - a function that checks for alphabetic character.
 
 5-sign - a function that prints the sign of a number.
+
 6-abs- A function that returns the abosolute value of a number
+
 7-print_last_digit - A function that prints the last digit of a number
+
+8-8-24_hours - a function that prints every minute of the day of Jack Bauer, starting from 00:00 to 23:59.
