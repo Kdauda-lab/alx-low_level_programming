@@ -9,3 +9,5 @@
 4- isalpha - a function that checks for alphabetic character.
 
 5-sign - a function that prints the sign of a number.
+6-abs- A function that returns the abosolute value of a number
+7-print_last_digit - A function that prints the last digit of a number
