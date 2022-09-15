@@ -9,7 +9,7 @@ int main(void)
 {
 	int i;
 
-	printf("infite loop incoming :(\n");
+	printf("Infinite loop incoming :(\n");
 	i = 0;
 	/**
 	 * while (i < 10)
@@ -18,7 +18,7 @@ int main(void)
 	 * }
 	 */
 
-	printf("Infinte loop avoided! \\0/\n");
+	printf("Infinite loop avoided! \\0/\n");
 	return (0);
 
 }
