@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _memcpy - a function that fills memory with a constant byte.
+ * _memset - a function that fills memory with a constant byte.
  * @s: momey  area to be filled
  * @b: char to copy
  * @n: number of times to copy b
