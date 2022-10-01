@@ -9,23 +9,18 @@
  * Return: Always returns 0 if success otherwise 1
  */
 
-int main(int argc, char *argv[] __attribute__((unused)))
+int main(int argc, char *argv[])
 {
 	int i;
 	int j;
 
-	if (argc == 2)
+	if (argc < 3 || argc > 3)
 	{
-		i = atoi(argv[1]);
-		j = atoi(argv[2]);
-
-		printf("%d\n", i * j);
-	}
-	else
-	{
-		printf("Error");
-		putchar('\n');
+		printf("Error\n");
 		return (1);
 	}
+	i = atoi(argv[1]);
+	j = atoi(argv[2]);
+	printf("%d\n", i * j);
 	return (0);
 }
