@@ -27,6 +27,10 @@ int main(int argc, char *argv[])
 		else if (atoi(argv[i]))
 		{
 			s = atoi(argv[i]);
+			if (s < 0)
+			{
+				continue;
+			}
 			sum = sum + s;
 		}
 		else
