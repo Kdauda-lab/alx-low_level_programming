@@ -7,7 +7,8 @@
  * a pointer to a 2 dimensional array of integers.
  * @width: the height of the array
  * @height: the width of the array
- * Return : a pointer to the arr on success
+ *
+ * Return: a pointer to the arr on success
  * otherwise NULL on failue or NULL if the height
  * or width is less than or equal to 0
  */
@@ -32,7 +33,7 @@ int **alloc_grid(int width, int height)
 			return (NULL);
 		}
 	}
-	for (i= 0; i< height; i++)
+	for (i = 0; i < height; i++)
 	{
 		for (j = 0; j < width; j++)
 		{
