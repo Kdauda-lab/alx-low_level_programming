@@ -1,9 +1,4 @@
 #include <stdio.h>
-/**
- * main - execution begins here
- *
- * Return: Always returns 0
- */
 
 int main(void)
 {
