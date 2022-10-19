@@ -9,3 +9,4 @@
 100-rot13 - a function that encodes a string using
 100-rot13 - a function that encodes a string using
 101-print_number.c - a function that prints an integer.
+102-magic.c - a program that prints a[2] = 98
